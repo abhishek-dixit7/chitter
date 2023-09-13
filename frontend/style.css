@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inclusive Sans', sans-serif;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+.hero {
+  margin-block: 2rem;
+  background-color: gray;
+  min-height: 80%;
+  min-width: 50%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.top-bar {
+  background-color: seagreen;
+}
+
+.chat-content {
+  flex: 1;
+}
+
+.text-bar {
+  background-color: seagreen;
+}
